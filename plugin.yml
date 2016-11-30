@@ -1,6 +1,19 @@
 name: MobsCash
 main: MobsCash\Loader
 api: 2.0.0
-version: 0.1 PRO
+version: 0.2 Beta
 author: TableStudio
 description: Give a money by kill mobs!
+permissions:
+  mobscash.*:
+    description: 'Все права'
+    default: op
+    children:
+      mobscash.admin.config:
+        description: 'Изменение конфигураций с сервера'
+        default: op
+commands:
+  mcc:
+    permissions: 'mobscash.admin.config'
+    usage: '/mcc <Значение>'
+    aliases: ["mc config", "mobscash config"]
