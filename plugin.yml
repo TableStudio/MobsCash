@@ -1,0 +1,6 @@
+name: MobsCash
+main: MobsCash\Loader
+api: 2.0.0
+version: 0.1 PRO
+author: TableStudio
+description: Give a money by kill mobs!
