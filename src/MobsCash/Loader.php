@@ -8,6 +8,7 @@ use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\entity\EntityDeathEvent;
 use pocketmine\Player;
 use pocketmine\Server;
+use MobsCash/Commands/Config;
 class Loader extends PluginBase implements Listener{
 	public $money;
 	
